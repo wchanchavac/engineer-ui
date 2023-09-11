@@ -7,12 +7,16 @@
 
 <AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
 	<svelte:fragment slot="lead">
-		<h2 class="h2 font-medium">sequeilize-ui</h2>
+		<h2 class="h2 font-medium">engineer-ui</h2>
 	</svelte:fragment>
 	<!-- (title) -->
 	<svelte:fragment slot="trail">
-		<Button icon="fa-brands fa-github fa-xl" klass="btn-icon hover:variant-soft-primary"></Button>
-		<Button icon="fa-brands fa-linkedin fa-xl" klass="btn-icon hover:variant-soft-primary"></Button>
+		<a href="https://github.com/wchanchavac" target="_blank" rel="noopener noreferrer" class="btn-icon hover:variant-soft-primary">
+			<i class="fa-brands fa-github fa-xl"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/wchanchavac/" target="_blank" rel="noopener noreferrer" class="btn-icon hover:variant-soft-primary">
+			<i class="fa-brands fa-linkedin fa-xl"></i>
+		</a>
 	</svelte:fragment>
 </AppBar>
 
